@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arbindo Teknik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <!-- Logo Bulat -->
+          <div class="w-10 h-10 bg-white rounded-full overflow-hidden">
+            <!-- Ganti src dengan logo asli -->
+            <img
+              src="logoarbindo.jpg"
+              alt="Logo Arbindo"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <h1 class="text-xl font-bold">Arbindo Teknik</h1>
+        </div>
+        <nav class="space-x-4">
+          <a href="#layanan" class="hover:underline">Layanan</a>
+          <a href="#paket" class="hover:underline">Paket</a>
+          <a href="#kontak" class="hover:underline">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="bg-blue-800 text-white py-16 text-center">
+      <h2 class="text-3xl font-bold mb-4">
+        Jasa Servis Elektronik Rumah Tangga
+      </h2>
+      <p class="mb-6">
+        Melayani Banjarbaru dan sekitarnya. Cepat, terpercaya, dan bergaransi.
+      </p>
+      <a
+        href="https://wa.me/62895366683512"
+        class="bg-blue-400 hover:bg-blue-500 px-6 py-3 rounded-full text-white font-semibold"
+        >Hubungi via WhatsApp</a
+      >
+    </section>
+
+    <!-- Layanan -->
+    <section id="layanan" class="py-12 bg-gray-100">
+      <div class="container mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-8">Layanan Kami</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white shadow p-6 rounded-2xl">
+            <h4 class="font-bold text-lg mb-2">Servis Kulkas</h4>
+            <p>
+              Pemeriksaan, pengisian freon, penggantian komponen rusak, dll.
+            </p>
+          </div>
+          <div class="bg-white shadow p-6 rounded-2xl">
+            <h4 class="font-bold text-lg mb-2">Servis Mesin Cuci</h4>
+            <p>
+              Perbaikan motor, modul, drain, dan lainnya. Mesin 1 tabung atau 2
+              tabung.
+            </p>
+          </div>
+          <div class="bg-white shadow p-6 rounded-2xl">
+            <h4 class="font-bold text-lg mb-2">Servis Alat Lain</h4>
+            <p>
+              Kipas angin, dispenser, rice cooker, dan alat rumah tangga
+              lainnya.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paket -->
+    <section id="paket" class="py-12">
+      <div class="container mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-8">Paket Layanan & Harga</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-blue-50 p-6 rounded-2xl shadow">
+            <h4 class="text-xl font-semibold mb-2">Paket Servis Kulkas</h4>
+            <ul class="text-left mb-4 list-disc list-inside">
+              <li>Pemeriksaan & Pembersihan</li>
+              <li>Tambah freon (jika perlu)</li>
+              <li>Garansi 1 minggu</li>
+            </ul>
+            <p class="font-bold text-blue-800 text-lg mb-4">
+              Rp150.000 – Rp250.000
+            </p>
+            <a
+              href="https://wa.me/62895366683512?text=Halo%20Arbindo%20Teknik%2C%20saya%20ingin%20servis%20kulkas"
+              class="bg-blue-700 text-white px-4 py-2 rounded-full"
+              >Pesan Sekarang</a
+            >
+          </div>
+          <div class="bg-blue-50 p-6 rounded-2xl shadow">
+            <h4 class="text-xl font-semibold mb-2">Paket Servis Mesin Cuci</h4>
+            <ul class="text-left mb-4 list-disc list-inside">
+              <li>Pemeriksaan motor & modul</li>
+              <li>Penggantian komponen rusak</li>
+              <li>Garansi 1 minggu</li>
+            </ul>
+            <p class="font-bold text-blue-800 text-lg mb-4">
+              Rp120.000 – Rp200.000
+            </p>
+            <a
+              href="https://wa.me/62895366683512?text=Halo%20Arbindo%20Teknik%2C%20saya%20ingin%20servis%20mesin%20cuci"
+              class="bg-blue-700 text-white px-4 py-2 rounded-full"
+              >Pesan Sekarang</a
+            >
+          </div>
+          <div class="bg-blue-50 p-6 rounded-2xl shadow">
+            <h4 class="text-xl font-semibold mb-2">Paket Servis Umum</h4>
+            <ul class="text-left mb-4 list-disc list-inside">
+              <li>Pemeriksaan alat rumah tangga lainnya</li>
+              <li>Servis ringan & pembersihan</li>
+              <li>Garansi 1 minggu</li>
+            </ul>
+            <p class="font-bold text-blue-800 text-lg mb-4">
+              Rp50.000 – Rp100.000
+            </p>
+            <a
+              href="https://wa.me/62895366683512?text=Halo%20Arbindo%20Teknik%2C%20saya%20ingin%20servis%20alat%20rumah%20tangga"
+              class="bg-blue-700 text-white px-4 py-2 rounded-full"
+              >Pesan Sekarang</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-12 bg-gray-100">
+      <div class="container mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-4">Kontak Kami</h3>
+        <p class="mb-2">
+          📞
+          <a href="https://wa.me/62895366683512" class="text-blue-700 underline"
+            >0895-3666-83512</a
+          >
+        </p>
+        <p class="mb-2">📧 arbindoteknik@gmail.com</p>
+        <p class="mb-2">
+          📸 Instagram:
+          <a
+            href="https://instagram.com/arbindoteknik"
+            class="text-blue-700 underline"
+            >@arbindoteknik</a
+          >
+        </p>
+        <p class="mb-2">🕘 Jam Operasional: Senin – Sabtu, 08.00 – 17.00</p>
+        <!-- Google Maps Embed -->
+        <div class="mt-6">
+          <iframe
+            src="https://www.google.com/maps?q=Jl+Manggis,+Landasan+Ulin,+Banjarbaru&output=embed"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white text-center p-4">
+      <p>&copy; 2025 Arbindo Teknik. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
